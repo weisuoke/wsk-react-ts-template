@@ -1,23 +1,15 @@
 {
-  "name": "wsk-react-ts-template",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "client:dev": "npx webpack-dev-server --env development",
     "client:prod": "npx webpack --env production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/weisuoke/wsk-react-ts-template.git"
-  },
   "keywords": [],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/weisuoke/wsk-react-ts-template/issues"
-  },
-  "homepage": "https://github.com/weisuoke/wsk-react-ts-template#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-decorators": "^7.4.4",
